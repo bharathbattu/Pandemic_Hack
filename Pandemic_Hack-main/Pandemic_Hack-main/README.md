@@ -1,51 +1,50 @@
-PandemicHack
+
+# PandemicHack
+
 PandemicHack is a centralized web-based COVID-19 information portal developed to assist users with real-time updates, symptom assessment, and access to essential pandemic-related resources. It was originally created as part of a hackathon initiative to digitally support communities during health crises.
 
-🔍 Features
-Real-time COVID-19 case statistics (global and country-specific)
+## 🔍 Features
 
-Self-assessment tool to evaluate symptoms
+* Real-time COVID-19 case statistics (global and country-specific)
+* Self-assessment tool to evaluate symptoms
+* Hospital and essential services locator
+* Resource listings: oxygen, plasma, food, and more
+* Latest news and government announcements
 
-Hospital and essential services locator
+## 🛠 Tech Stack
 
-Resource listings: oxygen, plasma, food, and more
+* Frontend: HTML, CSS, Bootstrap, JavaScript
+* Backend: Python (Flask)
+* APIs: COVID-19 data APIs, News API, Location Services
+* Database: SQLite / Firebase (depending on version)
 
-Latest news and government announcements
+## 🚀 Installation & Setup
 
-🛠 Tech Stack
-Frontend: HTML, CSS, Bootstrap, JavaScript
-
-Backend: Python (Flask)
-
-APIs: COVID-19 data APIs, News API, Location Services
-
-Database: SQLite / Firebase (depending on version)
-
-🚀 Installation & Setup
 To run the project locally:
 
-Clone the repository:
+1. Clone the repository:
 
-bash
-Copy
-Edit
-git clone https://github.com/your-username/PandemicHack.git
-cd PandemicHack
-Install dependencies:
+   ```bash
+   git clone https://github.com/your-username/PandemicHack.git
+   cd PandemicHack
+   ```
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Run the Flask server:
+2. Install dependencies:
 
-bash
-Copy
-Edit
-python app.py
-Open your browser and go to:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-arduino
-Copy
-Edit
-http://localhost:5000
+3. Run the Flask server:
+
+   ```bash
+   python app.py
+   ```
+
+4. Open your browser and go to:
+
+   ```
+   http://localhost:5000
+   ```
+
+
